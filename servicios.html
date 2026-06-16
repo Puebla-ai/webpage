@@ -3,14 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Servicios de IA , PueblAI · Puebla, México</title>
-  <meta name="description" content="Servicios de Inteligencia Artificial para PyMEs: automatización de procesos, chatbots, análisis de datos, consultoría e integraciones con CONTPAQi, Aspel y SAP." />
+  <title>Servicios de IA para Empresas en Puebla | PueblAI</title>
+  <meta name="description" content="Consultoría de IA en Puebla: automatización de procesos, chatbots para WhatsApp, análisis predictivo e integraciones con CONTPAQi, Aspel y SAP para PyMEs mexicanas." />
 
   <!-- Open Graph -->
-  <meta property="og:title"       content="Servicios de IA , PueblAI" />
-  <meta property="og:description" content="Automatización, chatbots, análisis de datos e integraciones para PyMEs en Puebla y México." />
+  <meta property="og:title"       content="Servicios de Consultoría de IA para PyMEs en Puebla | PueblAI" />
+  <meta property="og:description" content="Automatización, chatbots, análisis de datos e integraciones con CONTPAQi y Aspel para PyMEs en Puebla, México." />
   <meta property="og:type"        content="website" />
   <meta property="og:locale"      content="es_MX" />
+  <meta property="og:url"         content="https://pueblai.com/servicios.html" />
+  <!-- TODO: <meta property="og:image" content="https://pueblai.com/img/og-servicios.jpg" /> -->
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Servicios de IA para PyMEs en Puebla | PueblAI" />
+  <meta name="twitter:description" content="Automatización, chatbots, análisis de datos e integraciones para tu empresa en Puebla." />
+  <!-- TODO: <meta name="twitter:image" content="https://pueblai.com/img/og-servicios.jpg" /> -->
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
@@ -25,6 +33,60 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Datos estructurados: catálogo de servicios de IA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": "https://pueblai.com/servicios.html#automatizacion",
+        "name": "Automatización de procesos con IA",
+        "provider": {"@type": "Organization", "name": "PueblAI", "url": "https://pueblai.com"},
+        "areaServed": {"@type": "City", "name": "Puebla"},
+        "description": "Eliminamos las tareas manuales y repetitivas de tu empresa: captura de datos, procesamiento de documentos, generación de reportes. Integramos con CONTPAQi, Aspel y SAP.",
+        "offers": {"@type": "Offer", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "18000", "maxPrice": "45000", "priceCurrency": "MXN"}}
+      },
+      {
+        "@type": "Service",
+        "@id": "https://pueblai.com/servicios.html#analitica",
+        "name": "Análisis de datos e IA predictiva para empresas",
+        "provider": {"@type": "Organization", "name": "PueblAI", "url": "https://pueblai.com"},
+        "areaServed": {"@type": "City", "name": "Puebla"},
+        "description": "Convertimos los datos de tu empresa en decisiones más inteligentes. Modelos que predicen demanda, detectan patrones de compra y optimizan inventario.",
+        "offers": {"@type": "Offer", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "22000", "maxPrice": "55000", "priceCurrency": "MXN"}}
+      },
+      {
+        "@type": "Service",
+        "@id": "https://pueblai.com/servicios.html#chatbots",
+        "name": "Chatbots para WhatsApp y atención al cliente con IA",
+        "provider": {"@type": "Organization", "name": "PueblAI", "url": "https://pueblai.com"},
+        "areaServed": {"@type": "City", "name": "Puebla"},
+        "description": "Asistentes virtuales en WhatsApp que toman pedidos, gestionan reservaciones y responden preguntas frecuentes las 24 horas sin intervención humana.",
+        "offers": {"@type": "Offer", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "15000", "maxPrice": "35000", "priceCurrency": "MXN"}}
+      },
+      {
+        "@type": "Service",
+        "@id": "https://pueblai.com/servicios.html#consultoria",
+        "name": "Consultoría estratégica de inteligencia artificial en Puebla",
+        "provider": {"@type": "Organization", "name": "PueblAI", "url": "https://pueblai.com"},
+        "areaServed": {"@type": "City", "name": "Puebla"},
+        "description": "Diagnóstico de tu empresa, mapeo de procesos e identificación de oportunidades de IA. Entregamos una hoja de ruta priorizada con estimados de inversión y retorno.",
+        "offers": {"@type": "Offer", "price": "4500", "priceCurrency": "MXN"}
+      },
+      {
+        "@type": "Service",
+        "@id": "https://pueblai.com/servicios.html#integraciones",
+        "name": "Integraciones de IA con CONTPAQi, Aspel y SAP",
+        "provider": {"@type": "Organization", "name": "PueblAI", "url": "https://pueblai.com"},
+        "areaServed": {"@type": "City", "name": "Puebla"},
+        "description": "Conectamos tus sistemas para que compartan datos automáticamente. Experiencia específica con CONTPAQi, Aspel COI/NOI/SAE, SAP Business One, Shopify y MercadoLibre.",
+        "offers": {"@type": "Offer", "priceSpecification": {"@type": "PriceSpecification", "minPrice": "12000", "maxPrice": "40000", "priceCurrency": "MXN"}}
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -81,9 +143,9 @@
         Nuestros servicios
       </span>
       <h1 class="fade-in" style="transition-delay:0.1s;"
-          data-es="Soluciones de IA para tu negocio"
-          data-en="AI solutions for your business">
-        Soluciones de IA para tu negocio
+          data-es="Servicios de IA para PyMEs en Puebla, México"
+          data-en="AI services for SMBs in Puebla, México">
+        Servicios de IA para PyMEs en Puebla, México
       </h1>
       <p class="fade-in" style="transition-delay:0.15s; font-size:1.1rem; margin-top:1rem;"
          data-es="Tecnología de clase mundial construida con experiencia de Amazon y Microsoft, diseñada para las PyMEs de Puebla y México."
@@ -600,6 +662,18 @@
       </section>
 
     </div>
+
+    <div style="text-align:center; padding: 3rem 1.5rem;">
+      <p style="font-size:0.95rem; color:var(--muted); margin-bottom:1rem;"
+         data-es="¿Tienes preguntas antes de decidir?" data-en="Have questions before deciding?">
+        ¿Tienes preguntas antes de decidir?
+      </p>
+      <a href="index.html#faq" class="service-link"
+         data-es="Ver preguntas frecuentes →" data-en="See FAQ →">
+        Ver preguntas frecuentes →
+      </a>
+    </div>
+
   </main>
 
   <!-- FOOTER -->
