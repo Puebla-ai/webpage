@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicios de IA , PueblAI · Puebla, México</title>
+  <meta name="description" content="Servicios de Inteligencia Artificial para PyMEs: automatización de procesos, chatbots, análisis de datos, consultoría e integraciones con CONTPAQi, Aspel y SAP." />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Servicios de IA , PueblAI" />
+  <meta property="og:description" content="Automatización, chatbots, análisis de datos e integraciones para PyMEs en Puebla y México." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:locale"      content="es_MX" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="site-nav" role="navigation" aria-label="Navegación principal">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="PueblAI , Inicio">
+        Puebl<span>AI</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="servicios.html"          data-es="Servicios"  data-en="Services">Servicios</a></li>
+        <li><a href="casos.html"              data-es="Casos"      data-en="Cases">Casos</a></li>
+        <li><a href="index.html#precios"      data-es="Precios"    data-en="Pricing">Precios</a></li>
+        <li><a href="index.html#nosotros"     data-es="Nosotros"   data-en="About">Nosotros</a></li>
+        <li><a href="index.html#contacto"     data-es="Contacto"   data-en="Contact">Contacto</a></li>
+      </ul>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Cambiar idioma" aria-pressed="false">
+        ES | EN
+      </button>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile overlay -->
+  <div class="nav-overlay" role="dialog" aria-modal="true" aria-label="Menú de navegación">
+    <button class="close-overlay" aria-label="Cerrar menú">&times;</button>
+    <a href="servicios.html"     data-es="Servicios" data-en="Services">Servicios</a>
+    <a href="casos.html"         data-es="Casos"     data-en="Cases">Casos</a>
+    <a href="index.html#precios" data-es="Precios"   data-en="Pricing">Precios</a>
+    <a href="index.html#nosotros" data-es="Nosotros" data-en="About">Nosotros</a>
+    <a href="index.html#contacto" data-es="Contacto" data-en="Contact">Contacto</a>
+  </div>
+
+  <!-- WhatsApp float -->
+  <a href="https://wa.me/52XXXXXXXXXX?text=Hola%2C%20me%20interesa%20una%20consulta%20gratuita%20de%20IA%20para%20mi%20negocio."
+     class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- SUB-PAGE HERO -->
+  <header class="subpage-hero">
+    <div class="subpage-hero-inner">
+      <a href="index.html" class="back-link fade-in"
+         data-es="Inicio" data-en="Home">
+        Inicio
+      </a>
+      <span class="section-eyebrow fade-in"
+            data-es="Nuestros servicios" data-en="Our services">
+        Nuestros servicios
+      </span>
+      <h1 class="fade-in" style="transition-delay:0.1s;"
+          data-es="Soluciones de IA para tu negocio"
+          data-en="AI solutions for your business">
+        Soluciones de IA para tu negocio
+      </h1>
+      <p class="fade-in" style="transition-delay:0.15s; font-size:1.1rem; margin-top:1rem;"
+         data-es="Tecnología de clase mundial construida con experiencia de Amazon y Microsoft, diseñada para las PyMEs de Puebla y México."
+         data-en="World-class technology built with Amazon and Microsoft experience, designed for SMBs in Puebla and México.">
+        Tecnología de clase mundial construida con experiencia de Amazon y Microsoft, diseñada para las PyMEs de Puebla y México.
+      </p>
+    </div>
+  </header>
+
+  <main class="service-full">
+    <div class="service-full-inner">
+
+      <!-- ══════════════════════════════════════
+           SERVICE 1 , Automatización de procesos
+      ══════════════════════════════════════ -->
+      <section id="automatizacion" aria-labelledby="auto-title">
+
+        <span class="section-eyebrow fade-in"
+              data-es="Servicio 01" data-en="Service 01">
+          Servicio 01
+        </span>
+
+        <h2 id="auto-title" class="fade-in"
+            data-es="Automatización de procesos"
+            data-en="Process automation">
+          Automatización de procesos
+        </h2>
+
+        <p class="fade-in"
+           data-es="Eliminamos las tareas manuales y repetitivas que consumen tiempo de tu equipo: captura de datos, procesamiento de documentos, generación de reportes, envío de notificaciones. Construimos flujos automatizados que conectan tus sistemas actuales sin reemplazarlos."
+           data-en="We eliminate manual and repetitive tasks that consume your team's time: data entry, document processing, report generation, notification sending. We build automated flows that connect your existing systems without replacing them.">
+          Eliminamos las tareas manuales y repetitivas que consumen tiempo de tu equipo: captura de datos, procesamiento de documentos, generación de reportes, envío de notificaciones. Construimos flujos automatizados que conectan tus sistemas actuales sin reemplazarlos.
+        </p>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="¿Para quién es?" data-en="Who is it for?">
+          ¿Para quién es?
+        </h3>
+        <p class="fade-in"
+           data-es="Manufactura, retail, distribución, contabilidad, agencias de viajes, despachos contables, clínicas. Cualquier empresa donde el equipo dedica horas a capturar, copiar o validar datos entre sistemas."
+           data-en="Manufacturing, retail, distribution, accounting, travel agencies, accounting firms, clinics. Any company where the team spends hours entering, copying or validating data between systems.">
+          Manufactura, retail, distribución, contabilidad, agencias de viajes, despachos contables, clínicas. Cualquier empresa donde el equipo dedica horas a capturar, copiar o validar datos entre sistemas.
+        </p>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="Cómo funciona" data-en="How it works">
+          Cómo funciona
+        </h3>
+        <div class="process-steps fade-in">
+          <div class="process-step">
+            <div class="step-num">01</div>
+            <h4 data-es="Diagnóstico" data-en="Diagnosis">Diagnóstico</h4>
+            <p data-es="Mapeamos tus procesos actuales e identificamos las tareas con mayor potencial de automatización y retorno de inversión."
+               data-en="We map your current processes and identify tasks with the highest automation potential and return on investment.">
+              Mapeamos tus procesos actuales e identificamos las tareas con mayor potencial de automatización y retorno de inversión.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-num">02</div>
+            <h4 data-es="Construcción" data-en="Build">Construcción</h4>
+            <p data-es="Desarrollamos los flujos automatizados e integramos con tus sistemas: CONTPAQi, Aspel, SAP, Excel, correo electrónico."
+               data-en="We develop automated flows and integrate with your systems: CONTPAQi, Aspel, SAP, Excel, email.">
+              Desarrollamos los flujos automatizados e integramos con tus sistemas: CONTPAQi, Aspel, SAP, Excel, correo electrónico.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-num">03</div>
+            <h4 data-es="Entrega y soporte" data-en="Delivery &amp; support">Entrega y soporte</h4>
+            <p data-es="Capacitamos a tu equipo, entregamos documentación y damos soporte durante el primer mes de operación."
+               data-en="We train your team, deliver documentation and provide support during the first month of operation.">
+              Capacitamos a tu equipo, entregamos documentación y damos soporte durante el primer mes de operación.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="Tecnologías utilizadas" data-en="Technologies used">
+          Tecnologías utilizadas
+        </h3>
+        <div class="tech-tags fade-in">
+          <span class="tag">Python</span>
+          <span class="tag">OCR / Document AI</span>
+          <span class="tag">CONTPAQi API</span>
+          <span class="tag">Aspel</span>
+          <span class="tag">SAP</span>
+          <span class="tag">Google Cloud</span>
+          <span class="tag">AWS Lambda</span>
+          <span class="tag">Make / n8n</span>
+        </div>
+
+        <div class="service-price-band fade-in">
+          <div>
+            <div style="font-size:0.78rem; color:var(--muted); margin-bottom:0.25rem;"
+                 data-es="Inversión típica" data-en="Typical investment">
+              Inversión típica
+            </div>
+            <div class="service-price-range"
+                 data-es="$18,000 – $45,000 MXN por proyecto"
+                 data-en="$18,000 – $45,000 MXN per project">
+              $18,000 – $45,000 MXN por proyecto
+            </div>
+            <div style="font-size:0.82rem; color:var(--muted); margin-top:0.35rem;"
+                 data-es="Entrega en 4–8 semanas"
+                 data-en="Delivery in 4–8 weeks">
+              Entrega en 4–8 semanas
+            </div>
+          </div>
+          <a href="index.html#contacto" class="btn-primary"
+             data-es="Solicitar diagnóstico" data-en="Request a diagnosis">
+            Solicitar diagnóstico
+          </a>
+        </div>
+
+      </section>
+
+      <!-- ══════════════════════════════════════
+           SERVICE 2 , Análisis de datos e IA predictiva
+      ══════════════════════════════════════ -->
+      <section id="analitica" aria-labelledby="analitica-title">
+
+        <span class="section-eyebrow fade-in"
+              data-es="Servicio 02" data-en="Service 02">
+          Servicio 02
+        </span>
+
+        <h2 id="analitica-title" class="fade-in"
+            data-es="Análisis de datos e IA predictiva"
+            data-en="Data analytics &amp; predictive AI">
+          Análisis de datos e IA predictiva
+        </h2>
+
+        <p class="fade-in"
+           data-es="Convertimos los datos que ya tienes ,en Excel, Aspel, tu POS o tu ERP, en decisiones más inteligentes. Construimos modelos que predicen demanda, detectan patrones de compra, identifican clientes en riesgo de abandono y optimizan inventario."
+           data-en="We convert the data you already have , in Excel, Aspel, your POS or ERP , into smarter decisions. We build models that predict demand, detect purchasing patterns, identify customers at risk of churn and optimize inventory.">
+          Convertimos los datos que ya tienes ,en Excel, Aspel, tu POS o tu ERP, en decisiones más inteligentes. Construimos modelos que predicen demanda, detectan patrones de compra, identifican clientes en riesgo de abandono y optimizan inventario.
+        </p>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="¿Para quién es?" data-en="Who is it for?">
+          ¿Para quién es?
+        </h3>
+        <p class="fade-in"
+           data-es="Restaurantes y cadenas de alimentos, distribuidoras, tiendas de retail y e-commerce, empresas de manufactura, cualquier negocio que quiera tomar decisiones basadas en datos en lugar de intuición."
+           data-en="Restaurants and food chains, distributors, retail and e-commerce stores, manufacturing companies, any business that wants to make data-driven decisions instead of relying on intuition.">
+          Restaurantes y cadenas de alimentos, distribuidoras, tiendas de retail y e-commerce, empresas de manufactura, cualquier negocio que quiera tomar decisiones basadas en datos en lugar de intuición.
+        </p>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="Cómo funciona" data-en="How it works">
+          Cómo funciona
+        </h3>
+        <div class="process-steps fade-in">
+          <div class="process-step">
+            <div class="step-num">01</div>
+            <h4 data-es="Auditoría de datos" data-en="Data audit">Auditoría de datos</h4>
+            <p data-es="Revisamos qué datos tienes disponibles y su calidad. Con 1–2 años de historia ya podemos construir modelos útiles."
+               data-en="We review what data you have available and its quality. With 1–2 years of history we can already build useful models.">
+              Revisamos qué datos tienes disponibles y su calidad. Con 1–2 años de historia ya podemos construir modelos útiles.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-num">02</div>
+            <h4 data-es="Modelado" data-en="Modeling">Modelado</h4>
+            <p data-es="Construimos y entrenamos el modelo de Machine Learning, lo validamos con datos históricos y ajustamos hasta obtener la precisión requerida."
+               data-en="We build and train the Machine Learning model, validate it with historical data and tune it until the required accuracy is achieved.">
+              Construimos y entrenamos el modelo de Machine Learning, lo validamos con datos históricos y ajustamos hasta obtener la precisión requerida.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-num">03</div>
+            <h4 data-es="Entrega simple" data-en="Simple delivery">Entrega simple</h4>
+            <p data-es="El modelo entrega resultados en el formato que ya usa tu equipo: Excel, dashboard o integración directa con tu sistema."
+               data-en="The model delivers results in the format your team already uses: Excel, dashboard or direct integration with your system.">
+              El modelo entrega resultados en el formato que ya usa tu equipo: Excel, dashboard o integración directa con tu sistema.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="Tecnologías utilizadas" data-en="Technologies used">
+          Tecnologías utilizadas
+        </h3>
+        <div class="tech-tags fade-in">
+          <span class="tag">Python</span>
+          <span class="tag">scikit-learn</span>
+          <span class="tag">Random Forest</span>
+          <span class="tag">XGBoost</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Google Looker Studio</span>
+          <span class="tag">Aspel</span>
+          <span class="tag">Excel / Google Sheets</span>
+        </div>
+
+        <div class="service-price-band fade-in">
+          <div>
+            <div style="font-size:0.78rem; color:var(--muted); margin-bottom:0.25rem;"
+                 data-es="Inversión típica" data-en="Typical investment">
+              Inversión típica
+            </div>
+            <div class="service-price-range"
+                 data-es="$22,000 – $55,000 MXN por proyecto"
+                 data-en="$22,000 – $55,000 MXN per project">
+              $22,000 – $55,000 MXN por proyecto
+            </div>
+            <div style="font-size:0.82rem; color:var(--muted); margin-top:0.35rem;"
+                 data-es="Entrega en 5–10 semanas"
+                 data-en="Delivery in 5–10 weeks">
+              Entrega en 5–10 semanas
+            </div>
+          </div>
+          <a href="index.html#contacto" class="btn-primary"
+             data-es="Solicitar diagnóstico" data-en="Request a diagnosis">
+            Solicitar diagnóstico
+          </a>
+        </div>
+
+      </section>
+
+      <!-- ══════════════════════════════════════
+           SERVICE 3 , Chatbots
+      ══════════════════════════════════════ -->
+      <section id="chatbots" aria-labelledby="chatbots-title">
+
+        <span class="section-eyebrow fade-in"
+              data-es="Servicio 03" data-en="Service 03">
+          Servicio 03
+        </span>
+
+        <h2 id="chatbots-title" class="fade-in"
+            data-es="Chatbots y atención al cliente con IA"
+            data-en="AI chatbots &amp; customer service">
+          Chatbots y atención al cliente con IA
+        </h2>
+
+        <p class="fade-in"
+           data-es="Asistentes virtuales que responden instantáneamente a tus clientes en WhatsApp, tu sitio web o Instagram. Toman pedidos, gestionan reservaciones, responden preguntas frecuentes y escalan casos complejos a tu equipo con el historial completo de la conversación."
+           data-en="Virtual assistants that instantly respond to your customers on WhatsApp, your website or Instagram. They take orders, manage reservations, answer frequently asked questions and escalate complex cases to your team with the full conversation history.">
+          Asistentes virtuales que responden instantáneamente a tus clientes en WhatsApp, tu sitio web o Instagram. Toman pedidos, gestionan reservaciones, responden preguntas frecuentes y escalan casos complejos a tu equipo con el historial completo de la conversación.
+        </p>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="¿Para quién es?" data-en="Who is it for?">
+          ¿Para quién es?
+        </h3>
+        <p class="fade-in"
+           data-es="Restaurantes y hoteles, clínicas y consultorios, tiendas de retail, academias y escuelas, servicios de salud y belleza, cualquier PyME que reciba muchos mensajes con preguntas similares o que quiera atender clientes fuera del horario de oficina."
+           data-en="Restaurants and hotels, clinics and medical offices, retail stores, academies and schools, health and beauty services, any SMB that receives many messages with similar questions or wants to serve customers outside business hours.">
+          Restaurantes y hoteles, clínicas y consultorios, tiendas de retail, academias y escuelas, servicios de salud y belleza, cualquier PyME que reciba muchos mensajes con preguntas similares o que quiera atender clientes fuera del horario de oficina.
+        </p>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="Cómo funciona" data-en="How it works">
+          Cómo funciona
+        </h3>
+        <div class="process-steps fade-in">
+          <div class="process-step">
+            <div class="step-num">01</div>
+            <h4 data-es="Mapeo de conversaciones" data-en="Conversation mapping">Mapeo de conversaciones</h4>
+            <p data-es="Analizamos los mensajes frecuentes de tus clientes y diseñamos los flujos de conversación con tu tono y personalidad de marca."
+               data-en="We analyze your customers' frequent messages and design conversation flows with your brand's tone and personality.">
+              Analizamos los mensajes frecuentes de tus clientes y diseñamos los flujos de conversación con tu tono y personalidad de marca.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-num">02</div>
+            <h4 data-es="Configuración e integración" data-en="Setup &amp; integration">Configuración e integración</h4>
+            <p data-es="Configuramos el chatbot en WhatsApp Business API o web, conectado a tu calendario, sistema de reservaciones o inventario."
+               data-en="We configure the chatbot in WhatsApp Business API or web, connected to your calendar, reservation system or inventory.">
+              Configuramos el chatbot en WhatsApp Business API o web, conectado a tu calendario, sistema de reservaciones o inventario.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-num">03</div>
+            <h4 data-es="Aprendizaje continuo" data-en="Continuous learning">Aprendizaje continuo</h4>
+            <p data-es="El chatbot mejora con el tiempo. Revisamos mensajes no resueltos mensualmente y actualizamos las respuestas según las preguntas nuevas de tus clientes."
+               data-en="The chatbot improves over time. We review unresolved messages monthly and update responses based on your customers' new questions.">
+              El chatbot mejora con el tiempo. Revisamos mensajes no resueltos mensualmente y actualizamos las respuestas según las preguntas nuevas de tus clientes.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="Tecnologías utilizadas" data-en="Technologies used">
+          Tecnologías utilizadas
+        </h3>
+        <div class="tech-tags fade-in">
+          <span class="tag">WhatsApp Business API</span>
+          <span class="tag">OpenAI GPT-4</span>
+          <span class="tag">Claude API</span>
+          <span class="tag">Google Dialogflow</span>
+          <span class="tag">Twilio</span>
+          <span class="tag">Node.js / Python</span>
+          <span class="tag">Google Sheets API</span>
+        </div>
+
+        <div class="service-price-band fade-in">
+          <div>
+            <div style="font-size:0.78rem; color:var(--muted); margin-bottom:0.25rem;"
+                 data-es="Inversión típica" data-en="Typical investment">
+              Inversión típica
+            </div>
+            <div class="service-price-range"
+                 data-es="$15,000 – $35,000 MXN por proyecto"
+                 data-en="$15,000 – $35,000 MXN per project">
+              $15,000 – $35,000 MXN por proyecto
+            </div>
+            <div style="font-size:0.82rem; color:var(--muted); margin-top:0.35rem;"
+                 data-es="Entrega en 3–6 semanas"
+                 data-en="Delivery in 3–6 weeks">
+              Entrega en 3–6 semanas
+            </div>
+          </div>
+          <a href="index.html#contacto" class="btn-primary"
+             data-es="Solicitar información" data-en="Request information">
+            Solicitar información
+          </a>
+        </div>
+
+      </section>
+
+      <!-- ══════════════════════════════════════
+           SERVICE 4 , Consultoría estratégica
+      ══════════════════════════════════════ -->
+      <section id="consultoria" aria-labelledby="consultoria-title">
+
+        <span class="section-eyebrow fade-in"
+              data-es="Servicio 04" data-en="Service 04">
+          Servicio 04
+        </span>
+
+        <h2 id="consultoria-title" class="fade-in"
+            data-es="Consultoría estratégica de IA"
+            data-en="Strategic AI consulting">
+          Consultoría estratégica de IA
+        </h2>
+
+        <p class="fade-in"
+           data-es="El punto de entrada ideal si no sabes por dónde empezar. Hacemos un diagnóstico profundo de tu empresa, mapeamos tus procesos, identificamos las oportunidades de IA con mayor impacto y te entregamos una hoja de ruta priorizada con estimados de inversión y retorno."
+           data-en="The ideal entry point if you don't know where to start. We do a deep diagnosis of your company, map your processes, identify the highest-impact AI opportunities and deliver a prioritized roadmap with investment and return estimates.">
+          El punto de entrada ideal si no sabes por dónde empezar. Hacemos un diagnóstico profundo de tu empresa, mapeamos tus procesos, identificamos las oportunidades de IA con mayor impacto y te entregamos una hoja de ruta priorizada con estimados de inversión y retorno.
+        </p>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="¿Para quién es?" data-en="Who is it for?">
+          ¿Para quién es?
+        </h3>
+        <p class="fade-in"
+           data-es="Dueños y directores de PyMEs que saben que la IA puede ayudar a su empresa pero no tienen claro cómo, por dónde empezar o cuánto costaría. También empresas que ya intentaron implementar IA sin éxito y quieren un enfoque más estructurado."
+           data-en="Owners and directors of SMBs who know that AI can help their business but aren't clear on how, where to start or what it would cost. Also companies that have already tried implementing AI without success and want a more structured approach.">
+          Dueños y directores de PyMEs que saben que la IA puede ayudar a su empresa pero no tienen claro cómo, por dónde empezar o cuánto costaría. También empresas que ya intentaron implementar IA sin éxito y quieren un enfoque más estructurado.
+        </p>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="Cómo funciona" data-en="How it works">
+          Cómo funciona
+        </h3>
+        <div class="process-steps fade-in">
+          <div class="process-step">
+            <div class="step-num">01</div>
+            <h4 data-es="Sesión de diagnóstico" data-en="Diagnostic session">Sesión de diagnóstico</h4>
+            <p data-es="2 horas en línea o presencial contigo y tu equipo clave. Mapeamos procesos, sistemas y objetivos de negocio."
+               data-en="2 hours online or in person with you and your key team. We map processes, systems and business objectives.">
+              2 horas en línea o presencial contigo y tu equipo clave. Mapeamos procesos, sistemas y objetivos de negocio.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-num">02</div>
+            <h4 data-es="Análisis y priorización" data-en="Analysis &amp; prioritization">Análisis y priorización</h4>
+            <p data-es="Evaluamos cada oportunidad por impacto, facilidad de implementación y retorno estimado. Priorizamos las 3 más importantes."
+               data-en="We evaluate each opportunity by impact, ease of implementation and estimated return. We prioritize the top 3.">
+              Evaluamos cada oportunidad por impacto, facilidad de implementación y retorno estimado. Priorizamos las 3 más importantes.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-num">03</div>
+            <h4 data-es="Hoja de ruta" data-en="Roadmap">Hoja de ruta</h4>
+            <p data-es="Entregamos un documento con plan de acción detallado, presupuestos estimados y métricas para medir el éxito."
+               data-en="We deliver a document with a detailed action plan, estimated budgets and metrics to measure success.">
+              Entregamos un documento con plan de acción detallado, presupuestos estimados y métricas para medir el éxito.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-price-band fade-in">
+          <div>
+            <div style="font-size:0.78rem; color:var(--muted); margin-bottom:0.25rem;"
+                 data-es="Inversión" data-en="Investment">
+              Inversión
+            </div>
+            <div class="service-price-range"
+                 data-es="$4,500 MXN · Entrega en 1 semana"
+                 data-en="$4,500 MXN · Delivered in 1 week">
+              $4,500 MXN · Entrega en 1 semana
+            </div>
+            <div style="font-size:0.82rem; color:var(--muted); margin-top:0.35rem;"
+                 data-es="Incluye sesión grabada + documento de hoja de ruta"
+                 data-en="Includes recorded session + roadmap document">
+              Incluye sesión grabada + documento de hoja de ruta
+            </div>
+          </div>
+          <a href="index.html#contacto" class="btn-primary"
+             data-es="Agendar diagnóstico" data-en="Book a diagnosis">
+            Agendar diagnóstico
+          </a>
+        </div>
+
+      </section>
+
+      <!-- ══════════════════════════════════════
+           SERVICE 5 , Integraciones y APIs
+      ══════════════════════════════════════ -->
+      <section id="integraciones" aria-labelledby="integraciones-title">
+
+        <span class="section-eyebrow fade-in"
+              data-es="Servicio 05" data-en="Service 05">
+          Servicio 05
+        </span>
+
+        <h2 id="integraciones-title" class="fade-in"
+            data-es="Integraciones y APIs"
+            data-en="Integrations &amp; APIs">
+          Integraciones y APIs
+        </h2>
+
+        <p class="fade-in"
+           data-es="Conectamos tus sistemas para que hablen entre sí y eliminamos el trabajo manual de pasar información de un lugar a otro. Tenemos experiencia específica integrando CONTPAQi, Aspel, SAP, Shopify, MercadoLibre, WhatsApp Business y plataformas de logística locales con soluciones de IA."
+           data-en="We connect your systems so they communicate with each other and eliminate the manual work of moving information from one place to another. We have specific experience integrating CONTPAQi, Aspel, SAP, Shopify, MercadoLibre, WhatsApp Business and local logistics platforms with AI solutions.">
+          Conectamos tus sistemas para que hablen entre sí y eliminamos el trabajo manual de pasar información de un lugar a otro. Tenemos experiencia específica integrando CONTPAQi, Aspel, SAP, Shopify, MercadoLibre, WhatsApp Business y plataformas de logística locales con soluciones de IA.
+        </p>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="¿Para quién es?" data-en="Who is it for?">
+          ¿Para quién es?
+        </h3>
+        <p class="fade-in"
+           data-es="Empresas que usan múltiples sistemas que no se sincronizan automáticamente: tu ERP no habla con tu tienda en línea, tu POS no actualiza el inventario en Aspel, tu CRM no se conecta con WhatsApp. Si alguien en tu equipo pasa información manualmente entre dos sistemas, eso se puede automatizar."
+           data-en="Companies that use multiple systems that don't automatically synchronize: your ERP doesn't talk to your online store, your POS doesn't update inventory in Aspel, your CRM doesn't connect with WhatsApp. If someone on your team manually moves data between two systems, that can be automated.">
+          Empresas que usan múltiples sistemas que no se sincronizan automáticamente: tu ERP no habla con tu tienda en línea, tu POS no actualiza el inventario en Aspel, tu CRM no se conecta con WhatsApp. Si alguien en tu equipo pasa información manualmente entre dos sistemas, eso se puede automatizar.
+        </p>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="Cómo funciona" data-en="How it works">
+          Cómo funciona
+        </h3>
+        <div class="process-steps fade-in">
+          <div class="process-step">
+            <div class="step-num">01</div>
+            <h4 data-es="Mapeo de sistemas" data-en="Systems mapping">Mapeo de sistemas</h4>
+            <p data-es="Identificamos todos los sistemas que usas, qué datos necesitan compartir y con qué frecuencia."
+               data-en="We identify all the systems you use, what data they need to share and how often.">
+              Identificamos todos los sistemas que usas, qué datos necesitan compartir y con qué frecuencia.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-num">02</div>
+            <h4 data-es="Desarrollo de la integración" data-en="Integration development">Desarrollo de la integración</h4>
+            <p data-es="Construimos los conectores y flujos de datos usando APIs nativas o middleware según el caso."
+               data-en="We build the connectors and data flows using native APIs or middleware as needed.">
+              Construimos los conectores y flujos de datos usando APIs nativas o middleware según el caso.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-num">03</div>
+            <h4 data-es="Pruebas y monitoreo" data-en="Testing &amp; monitoring">Pruebas y monitoreo</h4>
+            <p data-es="Verificamos que los datos fluyan correctamente y configuramos alertas para detectar fallos automáticamente."
+               data-en="We verify that data flows correctly and configure alerts to automatically detect failures.">
+              Verificamos que los datos fluyan correctamente y configuramos alertas para detectar fallos automáticamente.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="fade-in" style="margin-top:1.5rem;"
+            data-es="Sistemas con los que trabajamos" data-en="Systems we work with">
+          Sistemas con los que trabajamos
+        </h3>
+        <div class="tech-tags fade-in">
+          <span class="tag">CONTPAQi</span>
+          <span class="tag">Aspel COI / NOI / SAE</span>
+          <span class="tag">SAP Business One</span>
+          <span class="tag">Shopify</span>
+          <span class="tag">MercadoLibre</span>
+          <span class="tag">WooCommerce</span>
+          <span class="tag">WhatsApp Business API</span>
+          <span class="tag">Google Workspace</span>
+          <span class="tag">Salesforce</span>
+          <span class="tag">HubSpot</span>
+          <span class="tag">Stripe / Conekta</span>
+          <span class="tag">REST / GraphQL APIs</span>
+        </div>
+
+        <div class="service-price-band fade-in">
+          <div>
+            <div style="font-size:0.78rem; color:var(--muted); margin-bottom:0.25rem;"
+                 data-es="Inversión típica" data-en="Typical investment">
+              Inversión típica
+            </div>
+            <div class="service-price-range"
+                 data-es="$12,000 – $40,000 MXN por integración"
+                 data-en="$12,000 – $40,000 MXN per integration">
+              $12,000 – $40,000 MXN por integración
+            </div>
+            <div style="font-size:0.82rem; color:var(--muted); margin-top:0.35rem;"
+                 data-es="Depende de la complejidad y número de sistemas"
+                 data-en="Depends on complexity and number of systems">
+              Depende de la complejidad y número de sistemas
+            </div>
+          </div>
+          <a href="index.html#contacto" class="btn-primary"
+             data-es="Solicitar información" data-en="Request information">
+            Solicitar información
+          </a>
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="font-size:1.3rem;">
+            Puebl<span>AI</span>
+          </a>
+          <p data-es="Inteligencia Artificial asequible para las PyMEs de Puebla y México."
+             data-en="Affordable Artificial Intelligence for SMBs in Puebla and México.">
+            Inteligencia Artificial asequible para las PyMEs de Puebla y México.
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <h5 data-es="Navegación" data-en="Navigation">Navegación</h5>
+          <ul role="list">
+            <li><a href="servicios.html"         data-es="Servicios"     data-en="Services">Servicios</a></li>
+            <li><a href="casos.html"             data-es="Casos de éxito" data-en="Case studies">Casos de éxito</a></li>
+            <li><a href="index.html#precios"     data-es="Precios"       data-en="Pricing">Precios</a></li>
+            <li><a href="index.html#nosotros"    data-es="Nosotros"      data-en="About us">Nosotros</a></li>
+            <li><a href="index.html#contacto"    data-es="Contacto"      data-en="Contact">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="footer-social">
+          <h5 data-es="Contacto" data-en="Contact">Contacto</h5>
+          <ul role="list">
+            <li><a href="https://wa.me/52XXXXXXXXXX" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+            <li><a href="mailto:iaenpuebla@gmail.com">iaenpuebla@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-legal">
+          Puebla, Pue., México &nbsp;·&nbsp; &copy; 2025 PueblAI &nbsp;·&nbsp;
+          <span data-es="Todos los derechos reservados" data-en="All rights reserved">Todos los derechos reservados</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
